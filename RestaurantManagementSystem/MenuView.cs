@@ -15,7 +15,7 @@ namespace RestaurantManagementSystem
     public partial class MenuView : UserControl
     {
         private readonly string connectionString =
-            @"Server=.\SQLEXPRESS;Database=RestoFlowDB;Integrated Security=True;TrustServerCertificate=True;";
+            @"Server=.\SQL Server Management;Database=RestoFlowDB;Integrated Security=True;TrustServerCertificate=True;";
         public MenuView()
         {
             InitializeComponent();

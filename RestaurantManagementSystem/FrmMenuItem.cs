@@ -14,7 +14,7 @@ namespace RestaurantManagementSystem
     public partial class FrmMenuItem : Form
     {
         private readonly string connectionString =
-            @"Server=.\SQLEXPRESS;Database=RestoFlowDB;Integrated Security=True;TrustServerCertificate=True;";
+            @"Server=.\SQL Server Management;Database=RestoFlowDB;Integrated Security=True;TrustServerCertificate=True;";
 
         public FrmMenuItem()
         {
